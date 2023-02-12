@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>연습문제 1</title>
+</head>
+<body>
+  <script>
+    function sumMulti(x,y){
+        var result;
+        if (x === y) {
+            result = x *y;
+            console.log(result);
+            console.log("Live reload enabled");
+        }
+        else{
+            result = x+y;
+            console.log(result);
+            console.log("Live reload enabled");
+        }    
+    }
+    var x;
+    var y;
+    x = parseInt(prompt());
+    y = parseInt(prompt());
+    sumMulti(x,y);
+
+  </script>
+</body>
+</html>
